@@ -69,7 +69,8 @@ element.style {
 }
 
 .navbar-inverse {
-	background: #9dbed7;
+	background: #484c52; /* Deep blue-black */
+	border: none;
 }
 .navbar-nav>li>a {
 	font-size: 18px;
@@ -84,7 +85,7 @@ background-image: linear-gradient(to bottom, #1ACEA9 0%, #149E82 100%);
 }
 /* Header */
 #head {
-	background: #181015 url( ../images/bg_header_24.jpg) no-repeat;
+	background: #181015 url( ../images/Bg_img.jpeg) no-repeat;
 	background-size: cover;
 	min-height: 520px;
 	text-align: center;
@@ -191,25 +192,25 @@ background-image: linear-gradient(to bottom, #1ACEA9 0%, #149E82 100%);
 .h-caption i {
 	display: block;
 	font-size: 54px;
-	color: #fff;
+	color: purple;
 	margin-bottom: 36px;
 }
 .h-caption h4 {
-	color: #fff;
+	color: purple;
 	font-size: 22px;
 	font-weight: normal;
 	margin-bottom: 20px;
 }
 .jumbotron p {
 	font-size: inherit;
-	color: #fff;
+	color: purple;
 	font-size: 16px;
 	padding: 0px 10px;
 }
 .h-body {
 }
 .jumbotron {
-	background-color: #3d86b5;
+	background-color: #cdb4db;
 }
 .page-title {
 	margin-top: 20px;
@@ -278,7 +279,7 @@ img.pull-left {
 }
 /* Footer */
 .footer1 {
-	background: #6f5e5e;
+	background: #;
 	padding: 30px 0 0 0;
 	font-size: 12px;
 	color: #fff;
@@ -648,4 +649,68 @@ nav#filter a.current {
 }
 .btn-theme:hover {
 	color: #eee;
+}
+
+/* Header (Navbar) Gradient */
+.navbar-inverse {
+    background: #181c24; /* Deep blue-black */
+    border: none;
+}
+
+/* Navbar Text */
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #44bfe8;
+    text-shadow: 0 0 8px #44bfe8;
+}
+
+/* Footer Gradient & Text */
+.footer1 {
+    background: linear-gradient(90deg, #a259c7 0%, #44bfe8 100%);
+    color: #fff;
+}
+.footer2 {
+    background: #191c24;
+    color: #fff;
+}
+.footer1 a, .footer2 a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.footer1 a:hover, .footer2 a:hover {
+    color: #44bfe8;
+    text-decoration: underline;
+}
+
+/* Body Text */
+body {
+    color: #222;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4 {
+    color: #44bfe8;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+/* Buttons */
+.btn, .btn-action, .btn-primary {
+    background: #1891EC;
+    color: #fff;
+    border: none;
+}
+.btn:hover, .btn-action:hover, .btn-primary:hover {
+    background: #a259c7; /* purple from gradient */
+    color: #fff;
+}
+
+/* Optional: Add subtle shadow to logo for emphasis */
+.logo-text {
+    filter: drop-shadow(0 2px 6px #191c24);
 }
