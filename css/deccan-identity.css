@@ -11,15 +11,15 @@
 
 .courseH4, .techH4 {
 font-family: "Open sans", Helvetica, Arial;
-font-size: 20px;
+font-size: 18px;
 line-height: 1.1;
 color: black;
 }
 
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   perspective: 1000px;
 }
 
